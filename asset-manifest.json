@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/resume-web-pdf/static/css/main.9181e1d4.css",
+    "main.js": "/resume-web-pdf/static/js/main.06bc386d.js",
+    "static/js/498.207ef577.chunk.js": "/resume-web-pdf/static/js/498.207ef577.chunk.js",
+    "static/js/703.7922b7f7.chunk.js": "/resume-web-pdf/static/js/703.7922b7f7.chunk.js",
+    "static/js/198.5a648153.chunk.js": "/resume-web-pdf/static/js/198.5a648153.chunk.js",
+    "static/js/787.a99868c3.chunk.js": "/resume-web-pdf/static/js/787.a99868c3.chunk.js",
+    "static/media/upload.svg": "/resume-web-pdf/static/media/upload.8c81c64d50d2666be5042dba9b3386c4.svg",
+    "index.html": "/resume-web-pdf/index.html",
+    "main.9181e1d4.css.map": "/resume-web-pdf/static/css/main.9181e1d4.css.map",
+    "main.06bc386d.js.map": "/resume-web-pdf/static/js/main.06bc386d.js.map",
+    "498.207ef577.chunk.js.map": "/resume-web-pdf/static/js/498.207ef577.chunk.js.map",
+    "703.7922b7f7.chunk.js.map": "/resume-web-pdf/static/js/703.7922b7f7.chunk.js.map",
+    "198.5a648153.chunk.js.map": "/resume-web-pdf/static/js/198.5a648153.chunk.js.map",
+    "787.a99868c3.chunk.js.map": "/resume-web-pdf/static/js/787.a99868c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9181e1d4.css",
+    "static/js/main.06bc386d.js"
+  ]
+}
