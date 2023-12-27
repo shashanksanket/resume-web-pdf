@@ -41,7 +41,7 @@ const Home = () => {
           dispatch(setIndex(index + 1));
         }
       }
-    }, 2400);
+    }, 2600);
 
     // Clean up event listener and timeout
     return () => {
@@ -51,7 +51,7 @@ const Home = () => {
   }, [isLoading, isPromptOne, isPromptTwo, resumeData, index]);
 
   return (
-    <div className='bg-indigo-50 h-screen'>
+    <div className='bg-indigo-50 h-full'>
       {isLoading || isPromptOne || isPromptTwo ? (
         <div className='fixed top-0 left-0 h-screen w-screen flex justify-center items-center animation-gradient'>
           <p className='text-white text-4xl font-mono transition-all duration-500'>{flag[index]}</p>

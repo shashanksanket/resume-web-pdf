@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { setIsPromptOne, setIsPromptTwo } from '../store/flagSlice';
 
 const openai = new OpenAI({
-  apiKey: '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',
+  apiKey: `${process.env.REACT_APP_OPENAI_API_KEY}`,
   dangerouslyAllowBrowser: true,
 });
 
