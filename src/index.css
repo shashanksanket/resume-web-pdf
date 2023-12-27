@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes gradientAnimation {
+    0% { background-color: #7aa0ff; } /* indigo-100 (Color A) */
+    20% { background-color: #667eea; } /* indigo-500 (Color B) */
+    40% { background-color: #434190; } /* indigo-800 (Color C - Darker) */
+    60% { background-color: #5f74d3; } /* indigo-500 (Color B) */
+    80% { background-color: #667eea; } /* indigo-100 (Color A) */
+    100% { background-color: #7aa0ff; } /* indigo-100 (Color A) */
+  }
+  
+  .animation-gradient {
+    animation: gradientAnimation 5s linear infinite;
+  }

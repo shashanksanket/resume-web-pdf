@@ -1,0 +1,17 @@
+@keyframes gradientAnimation {
+    0% { background-color: #ebf4ff; } /* indigo-100 */
+    10% { background-color: #c3dafe; } /* indigo-200 */
+    20% { background-color: #a3bffa; } /* indigo-300 */
+    30% { background-color: #7f9cf5; } /* indigo-400 */
+    40% { background-color: #667eea; } /* indigo-500 */
+    50% { background-color: #5a67d8; } /* indigo-600 */
+    60% { background-color: #4c51bf; } /* indigo-700 */
+    70% { background-color: #434190; } /* indigo-800 */
+    80% { background-color: #3c366b; } /* indigo-900 */
+    90% { background-color: #554fff; } /* indigo-800 */
+    100% { background-color: #4c51bf; } /* indigo-700 */
+  }
+  
+  .animation-gradient {
+    animation: gradientAnimation 5s linear infinite;
+  }

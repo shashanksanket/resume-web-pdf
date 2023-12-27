@@ -1,0 +1,48 @@
+{
+  "name": "resume-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "html-to-image": "~1.11.11",
+    "openai": "~4.24.1",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "~8.1.3",
+    "react-router-dom": "~6.20.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "web-vitals": "~2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "html2pdf.js": "~0.10.1",
+    "tailwindcss": "~3.3.6"
+  }
+}
