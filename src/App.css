@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @keyframes gradientAnimation {
     0% { background-color: #ebf4ff; } /* indigo-100 */
     10% { background-color: #c3dafe; } /* indigo-200 */
