@@ -50,6 +50,10 @@ const Tool = () => {
   };
 
   const handleSubmit = async () => {
+    if(jobDescription=="" || resume==""){
+      alert("Please fill the basic information to continue")
+      return
+    }
     try {
       dispatch(setIndex(0))
       dispatch(setLoaded());
